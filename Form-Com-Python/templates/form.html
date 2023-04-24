@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operações</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        form{
+            margin: auto;
+            width: 50%;
+            margin-bottom: 10px;
+        }
+        form p{
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>OPERAÇÃO: (N1 + N2 + N3) * 2</h1>
+    <form action="http://localhost:5000/operacao" method="post">
+        <p>Digite um número: <input type="number" name="n1"/></p>
+        <p>Digite um número: <input type="number" name="n2"/></p>
+        <p>Digite um número: <input type="number" name="n3"/></p>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
