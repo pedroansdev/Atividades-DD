@@ -1,0 +1,35 @@
+.row{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.item{
+    background-color: cornflowerblue;
+    width: 29.3%;
+    height: 200px;
+    margin: 1%;
+    padding: 1%;
+    text-align: center;
+}
+
+.item-prop{
+    background-color: cadetblue;
+    width: 28%;
+    margin: 1%;
+    padding: 1%;
+    text-align: center;
+    flex: 1;
+}
+
+.item-prop:nth-of-type(2){
+    flex: 3;
+    background-color: darkcyan;
+}
+
+h1{
+    background-color: cyan;
+    width:97.7%;
+    margin: auto;
+    text-align: center;
+}
